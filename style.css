@@ -107,7 +107,14 @@ section {
 .typed {
   color: #ff6600;
 }
-/* Style de la heropart */
+
+.text3 {
+  margin-top: 150px;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Style de la hero_part */
 
 /* Style de la section_project */
 .project {
@@ -120,7 +127,6 @@ section {
 /* Style de la section_project */
 
 /* Style du footer */
-
 footer {
   display: flex;
   justify-content: center;
@@ -129,4 +135,66 @@ footer {
   width: 100vw;
   border-top: 1px solid #ff6600;
   color: #cacaca;
+  font-size: 18px;
+}
+/* Style du footer */
+
+/* Media Queries */
+@media screen and (max-width: 630px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    height: 100px;
+  }
+
+  nav {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav a {
+    font-size: 13px;
+    margin-bottom: 8px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  .hero_part {
+    font-size: 25px;
+  }
+
+  .text1 {
+    font-size: 15px;
+  }
+
+  .text2 {
+    font-size: 15px;
+  }
+
+  .text3 {
+    font-size: 13px;
+  }
+
+  footer {
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 631px) and (max-width: 1024px) {
+  .text1 {
+    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .text2 {
+    font-size: 35px;
+  }
 }

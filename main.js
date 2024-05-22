@@ -1,5 +1,5 @@
 const typed = new Typed(".typed", {
-  strings: ["Développeur Web."],
+  strings: ["Développeur front-end."],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 3000,
