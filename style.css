@@ -155,11 +155,12 @@ nav i {
   display: flex;
   flex-direction: column;
   max-width: 500px;
-  height: 370px;
+  height: 400px;
+  cursor: pointer;
 }
 
 .card_part1 {
-  height: 200px;
+  height: 60%;
 }
 
 .card_part1 img {
@@ -173,6 +174,7 @@ nav i {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  height: 40%;
 }
 
 .card_part2 h2 {
@@ -250,6 +252,10 @@ footer {
 
   .card {
     height: 435px;
+  }
+
+  .card_part2 {
+    font-size: 13px;
   }
 
   footer {
