@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const itemDesc = document.createElement("p");
         itemDesc.textContent = item.desc;
         const itemLink = document.createElement("a");
-        itemLink.href = "#"; // Remplacez par l'URL correcte si nécessaire
+        itemLink.href = item.link;
         itemLink.textContent = "Live demo";
 
         cardPart2.appendChild(itemName);
