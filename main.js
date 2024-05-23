@@ -1,3 +1,14 @@
+/********** Preloader **********/
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    document.getElementById("preloader").style.opacity = "0";
+    setTimeout(function () {
+      document.getElementById("preloader").style.display = "none";
+    }, 500); // Correspond à la durée de la transition CSS
+  }, 3000); // Durée avant de commencer le fondu
+});
+/********** Preloader **********/
+
 /********** TypedJS **********/
 
 const typed = new Typed(".typed", {
