@@ -1,14 +1,14 @@
 [
-    {
-        "name": "- Booki -",
-        "desc": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
-        "img": "Booki.webp",
-        "link": "https://allam0r.github.io/OC_Booki/"
-    },
-    {
-        "name": "- OhMyFood -",
-        "desc": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris.",
-        "img": "OhMyFood.webp",
-        "link": "https://allam0r.github.io/ohmyfood/"
-    }
+  {
+    "name": "- Booki -",
+    "desc": "L’entreprise souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Vous êtes chargé d'intégrer l'interface du site avec du code HTML et CSS.",
+    "img": "Booki.webp",
+    "link": "https://allam0r.github.io/OC_Booki/"
+  },
+  {
+    "name": "- OhMyFood -",
+    "desc": "Vous avez intégré Ohmyfood en tant que développeur junior. Il s’agit d’une jeune startup qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris.",
+    "img": "OhMyFood.webp",
+    "link": "https://allam0r.github.io/ohmyfood/"
+  }
 ]
