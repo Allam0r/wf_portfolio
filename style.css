@@ -149,8 +149,9 @@ nav i {
   border: 2px solid #ff6600;
   border-radius: 20px;
   padding: 5px;
-  cursor: pointer;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .card_part1 {
@@ -172,6 +173,11 @@ nav i {
 
 .card_part2 h2 {
   color: #ff6600;
+}
+
+.card_part2 a {
+  color: #ff6600;
+  font-weight: bolder;
 }
 /********** Project section **********/
 
