@@ -94,6 +94,23 @@ section {
 
 /* Style de la hero_part */
 
+.hero_img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid #ff6600;
+  margin-bottom: 100px;
+  padding: 5px;
+}
+
+.hero_img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: brightness(0.8);
+}
+
 .hero_part {
   display: flex;
   flex-direction: column;
@@ -162,6 +179,11 @@ footer {
 
   section {
     padding: 10px;
+  }
+
+  .hero_img {
+    height: 150px;
+    width: 150px;
   }
 
   .hero_part {
