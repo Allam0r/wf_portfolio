@@ -161,6 +161,7 @@ nav i {
 
 .card_part1 {
   height: 60%;
+  overflow: hidden;
 }
 
 .card_part1 img {
@@ -168,6 +169,7 @@ nav i {
   width: 100%;
   object-fit: cover;
   border-radius: 15px;
+  filter: brightness(0.8);
 }
 
 .card_part2 {
