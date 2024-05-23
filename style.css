@@ -176,6 +176,7 @@ nav i {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   height: 40%;
 }
@@ -187,6 +188,16 @@ nav i {
 .card_part2 a {
   color: #ff6600;
   font-weight: bolder;
+  transition: 0.2s ease-in-out;
+  border: 1px solid #cacaca;
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+  padding: 3px;
+}
+
+.card_part2 a:hover {
+  scale: 1.1;
 }
 /********** Project section **********/
 
