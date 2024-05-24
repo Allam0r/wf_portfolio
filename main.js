@@ -10,7 +10,6 @@ window.addEventListener("load", function () {
 /********** Preloader **********/
 
 /********** TypedJS **********/
-
 const typed = new Typed(".typed", {
   strings: ["Développeur front-end."],
   typeSpeed: 100,
@@ -18,7 +17,6 @@ const typed = new Typed(".typed", {
   backDelay: 3000,
   loop: true,
 });
-
 /********** TypedJS **********/
 
 /********** Affichage dynamique **********/
@@ -78,5 +76,4 @@ document.addEventListener("DOMContentLoaded", function () {
       console.error("Erreur lors du chargement du fichier JSON:", error);
     });
 });
-
 /********** Affichage dynamique **********/
